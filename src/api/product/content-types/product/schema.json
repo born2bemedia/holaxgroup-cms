@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "strategic-planning-development",
+        "operational-excellence",
+        "financial-optimization",
+        "customer-experience-management",
+        "technology-digital-transformation",
+        "brand-strategy-development",
+        "digital-marketing-online-presence",
+        "content-communication",
+        "market-research-analysis",
+        "campaign-management-execution",
+        "business-consulting-complete-packages",
+        "marketing-consulting-complete-packages"
+      ]
+    },
+    "for_request": {
+      "type": "boolean"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
