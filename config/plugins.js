@@ -23,8 +23,8 @@ module.exports = ({ env }) => ({
         },
       },
       settings: {
-        defaultFrom: "noreply@holaxgroup.com ",
-        defaultReplyTo: "noreply@holaxgroup.com ",
+        defaultFrom: "noreply@holaxgroup.com",
+        defaultReplyTo: "noreply@holaxgroup.com",
       },
     },
   },
